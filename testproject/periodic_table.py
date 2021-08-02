@@ -11,10 +11,11 @@ try:
 
 
     with open('data.txt', 'r') as f:
-        line = f.readline()
-        periodic_list = f.readline().split('/n'))
+        line = int(f.readline())
+        periodic_list = f.readline().split('/n')
 
 
     # Sajna lejárt az időm...
+
 finally:
     pass
